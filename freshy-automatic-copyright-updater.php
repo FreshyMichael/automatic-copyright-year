@@ -18,34 +18,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 //Short Code Start
 
-add_shortcode('actual_short_code', 'your_shortcode_function');
+add_shortcode('freshy_year', 'freshy_update_year_func');
 
 // change 'actual_short_code' to a unique shortcode and use like: [actual_short_code]
 
 // change 'your_shortcode_function' to be something unique
 
-function your_shortcode_function(){
+function freshy_update_year_func(){
 
-		
-		
-	
 		ob_start();
 
-		echo '
-		
-		This the shortcode content. <br />
-		Put all the stuff between ob_start(); and ReturnString.
-		
-		<!-- this is an example of a simple JavaScript inclusion -->
-		
-		<script>
-		var logIt = "Hey look, the short code is working!";
-		console.log(logIt);
-		</script>
-		
-		<!-- End JavaScript Inclusion --> 
-		
-		';
+		echo date("Y");
 	
 		$ReturnString = ob_get_contents();
 		
