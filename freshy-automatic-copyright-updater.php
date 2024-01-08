@@ -50,10 +50,10 @@ function freshy_update_year_func(){
 require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 // ***IMPORTANT*** Update this path to New Github Repository Master Branch Path
-	'https://github.com/FreshyMichael/shortcode_template',
+	'https://github.com/FreshyMichael/automatic-copyright-year',
 	__FILE__,
 // ***IMPORTANT*** Update this to New Repository Master Branch Path
-	'shortcode_template'
+	'automatic-copyright-year'
 );
 //Enable Releases
 $myUpdateChecker->getVcsApi()->enableReleaseAssets();
