@@ -1,8 +1,8 @@
 <?php
 /**
-* Plugin Name: Add PluginName
-* Plugin URI: https://github.com/FreshyMichael/shortcode_template
-* Description: Add a Description
+* Plugin Name: Freshy Copyright Updater
+* Plugin URI: https://github.com/FreshyMichael/automatic-copyright-year
+* Description: Don't update your copyright year manually, use this instead
 * Version: 1.0.0
 * Author: FreshySites
 * Author URI: https://freshysites.com/
